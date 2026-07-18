@@ -1,0 +1,104 @@
+{
+  "best_model": "random_forest",
+  "n_train": 4805,
+  "n_test": 1202,
+  "churn_rate_train": 0.2882414151925078,
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.7820299500831946,
+      "precision": 0.589098532494759,
+      "recall": 0.8097982708933718,
+      "f1": 0.6820388349514563,
+      "roc_auc": 0.8710753829819505,
+      "confusion_matrix": [
+        [
+          659,
+          196
+        ],
+        [
+          66,
+          281
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.8452579034941764,
+      "precision": 0.8084291187739464,
+      "recall": 0.6080691642651297,
+      "f1": 0.694078947368421,
+      "roc_auc": 0.8915786103105987,
+      "confusion_matrix": [
+        [
+          805,
+          50
+        ],
+        [
+          136,
+          211
+        ]
+      ]
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "Contract_Month-to-Month",
+      "importance": 0.10048774741154078
+    },
+    {
+      "feature": "Total_Charges",
+      "importance": 0.08879252918087989
+    },
+    {
+      "feature": "Total_Revenue",
+      "importance": 0.08619856780796348
+    },
+    {
+      "feature": "Total_Long_Distance_Charges",
+      "importance": 0.06451575687839989
+    },
+    {
+      "feature": "Contract_Two Year",
+      "importance": 0.05427154628020369
+    },
+    {
+      "feature": "Monthly_Charge",
+      "importance": 0.054032239638412326
+    },
+    {
+      "feature": "Age",
+      "importance": 0.045071132404539964
+    },
+    {
+      "feature": "Tenure_in_Months",
+      "importance": 0.03451280261329918
+    },
+    {
+      "feature": "Online_Security_No",
+      "importance": 0.03398166534514789
+    },
+    {
+      "feature": "Number_of_Referrals",
+      "importance": 0.030962807014840603
+    },
+    {
+      "feature": "Premium_Support_No",
+      "importance": 0.02937944591506372
+    },
+    {
+      "feature": "Contract_One Year",
+      "importance": 0.018752786087198155
+    },
+    {
+      "feature": "Internet_Type_Fiber Optic",
+      "importance": 0.016989122236064077
+    },
+    {
+      "feature": "Payment_Method_Credit Card",
+      "importance": 0.011931956663541634
+    },
+    {
+      "feature": "Online_Backup_No",
+      "importance": 0.011871350708639754
+    }
+  ]
+}
